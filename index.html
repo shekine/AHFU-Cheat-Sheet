@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://unpkg.com/pageable@latest/dist/pageable.min.js"></script>
+    <link href="https://unpkg.com/pageable@latest/dist/pageable.min.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     
@@ -14,15 +16,15 @@
   <h2>here are some resources to get you started as a nursing care partner</h2>
 </div>
 <div class="cardbox"><a class="card" href="#who-are-we">Who are we</a><a class="card" href="#duties">Primary Duties</a><a class="card" href="#where">Where can I find...?</a><a class="card" href="#eos-tasks">End of Shift Stuff</a><a class="card" href="#how-to">How to...</a></div>
-<div class="info-container">
-  <section id="who-are-we">
+<div class="info-container" id="container">
+  <section id="who-are-we" data-anchor="Page 1">
     <h3>who are we
       <p>the advanced heart failure unit is a mixed imc/lcc unit. that just means that we are able to take patients who are normally med-surg, intermediate care, or, occasionally, low critical care. we have a few specialties on our unit. these are pulmonary hypertension, heart transplants, and lvad patients. we accept other patients, but these are our priority patients as they cannot receive the care that we offer on other units.</p>
       <p>because most of our patient population is in heart failure, there are some patterns that you will begin to see over time. we place a large focus on education for our patients about their diets. most of us should avoid getting too much salt in our diets and even more so for our heart failure patients as it can cause them to retain excess fluid in their bodies. hand in hand with this are fluid restrictions that many of our patients should abide by to, again, mitigate fluid retention. remember to check on your patients intake and output every shift and to document everything so that everyone is on the same page with fluids!</p><a href="#main">back to the top</a>
     </h3>
   </section>
   <hr/>
-  <section id="duties">
+  <section id="duties" data-anchor="Page 2">
     <h3>primary duties
       <p>as a care partner, our duties are pretty straightforward. time management will likely be the biggest issue to manage, but we work as a team and you can always feel free to ask a coworker if they can help you if you get behind.</p>
       <ul> 
@@ -46,7 +48,7 @@
       </ul>
     </h3>
     <hr/>
-    <section id="where"></section>
+    <section id="where"data-anchor="Page 3"></section>
     <h3>Where can I find...?
       <p>Lists some of the locations of common items you might need on our unit</p>
       <ul>
@@ -84,7 +86,7 @@
     </h3>
   </section>
   <hr/>
-  <section id="eos-tasks">
+  <section id="eos-tasks" data-anchor="Page 4">
     <h3>end of shift tasks
       <p>at the end of your shift, there are a handful of things that need to be taken care of before you leave. they don't have to be done right at shift change, but make sure to set your next shift up for success by making sure they have everything they need to start working</p>
       <ol> 
@@ -99,7 +101,7 @@
     </h3>
   </section>
   <hr/>
-  <section id="how-to">
+  <section id="how-to" data-anchor="Page 5">
     <h3>How to...
       <ul>
         <li>Check a blood glucose
@@ -128,6 +130,37 @@
           </ol>
         </li>
       </ul>
+    </h3>
+  </section>
+  <hr/>
+  <section id="day-in-the-life" data-anchor="Page 4">
+    <h3>Daily Schedule
+      <p>Here is an idea of what your day might look like when you are on the floor.</p>
+      <ul>
+        <li><b>0653-0700</b> Clock in</li>
+        <li><b>0700-0715</b> Nursing Huddle</li>
+        <li><b>0715-0730</b> Receive report/Look up patients</li>
+        <li><b>0730-0830</b> Perform vital signs and blood sugars</li>
+        <li><b>0830-0900</b> Assist patients with feeding if necessary</li>
+        <li><b>0900-0930</b> Document Meal Intake %, I/Os, check if patients need toileting</li>
+        <li><b>0930-1130</b> Assist patients with bathing and perform linen changes (odd rooms on odd days). Prioritize CHG baths.</li>
+        <li><b>1130-1230</b> Perform vital signs and blood sugars</li>
+        <li><b>1230-1300</b> Assist patients with feeding if necessary</li>
+        <li><b>1300-1330</b> Document meal intake %, I/Os, check if patients need toileting</li>
+        <li><b>1330-1400</b> Lunch Break</li>
+        <li><b>1400-1530</b> Assist patients with bathing and perform linen changes (odd rooms on odd days)</li>
+        <li><b>1530-1700</b> Perform vital signs and blood sugars. Blood sugars should be performed after 1600.</li>
+        <li><b>1700-1730</b> Assist patients with feeding if necessary.</li>
+        <li><b>1730-1800</b> Document meal intake %, I/Os, check if patients need toileting.</li>
+        <li><b>1800-1900</b> Perform end of shift tasks.</li>
+      </ul>
+      <a href="#main">back to the top</a>
+    </h3>
+  </section>
+  <section id="day-in-the-life" data-anchor="Page 4">
+    <h3>Ambulation Distance
+      <img class="map-img" src="https://docs.google.com/uc?export=download&id=1kjqK-XqPatnjBrwm3tZ0W4MqKPeE0mr2" alt="Ambulation distance map of the floor">
+      <a href="#main">back to the top</a>
     </h3>
   </section>
 </div>
