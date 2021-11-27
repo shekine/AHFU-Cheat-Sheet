@@ -150,6 +150,10 @@ ol {
   width: 100%;
 }
 
+#lift-videos div div {
+  margin: 0 20px;
+}
+
 @media screen and (max-width: 700px) {
   .banner {
     text-align: center;
