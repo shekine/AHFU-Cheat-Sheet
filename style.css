@@ -150,8 +150,8 @@ ol {
   width: 100%;
 }
 
-#lift-videos div div {
-  margin: 0 20px;
+section h3 {
+  text-align: center;
 }
 
 @media screen and (max-width: 700px) {
@@ -168,6 +168,10 @@ ol {
 @media screen and (max-width: 600px) {
   .cardbox {
     flex-direction: column;
+  }
+
+  .banner h1 {
+    font-size: 4rem;
   }
 
   .card {
